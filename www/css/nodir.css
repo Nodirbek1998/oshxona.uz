@@ -1,0 +1,35 @@
+body
+{
+    font-family: Arial, Sans-Serif;
+    margin: 0;
+}
+#container{
+    display: inline-block;
+    width: 660px;
+    margin: 0 auto;
+}
+.sarlavha{
+    text-indent: 1px;
+    height: 0;
+    margin: 20px 50px;
+    padding-bottom: 20px;
+}
+hr{
+    content: '';
+    display: table;
+    clear: both; }
+.rasmlar{
+    width: 560px;
+    margin: 0 50px;
+    content: '';
+    display: table;
+    clear: both;
+}
+.rasmlar a
+{
+    display: inline-block;
+    float: left;
+    margin: 4px;
+}
+.rasmlar a img{ border: solid 1px Black; }
+.rasmlar a:hover img{ border: solid 1px #aaa }
